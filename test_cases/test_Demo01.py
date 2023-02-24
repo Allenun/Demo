@@ -35,7 +35,7 @@ def test_01(data):
     try:
         global errmsg
         errmsg = result['errmsg']
-        print(data['project'] + '返回值中获取到的name：' + errmsg)
+        print(data['project'] + '返回值A中获取到的name：' + errmsg)
     except:
         pass
         print('直接通过')
